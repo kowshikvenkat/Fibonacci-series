@@ -1,0 +1,16 @@
+list1=[12,-7,5,64,-14]
+pos_count=0
+for num in list1:
+ if num>0:
+ pos_count+=1
+ print ("positive numbers are",pos_count)
+ break
+list2=[12,14,-95,3]
+pos_count2=0
+for num in list2:
+ if num> 0:
+ pos_count2+=1
+ print("positive numbers are",pos_count)
+ break
+
+
